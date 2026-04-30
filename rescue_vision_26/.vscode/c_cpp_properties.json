@@ -1,0 +1,25 @@
+{
+    "configurations": [
+      {
+        "browse": {
+          "databaseFilename": "${default}",
+          "limitSymbolsToIncludedHeaders": false
+        },
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/home/choibeomsu/ros2_ws/install/include/**",
+          "/opt/ros/humble/include/**",
+          "/home/choibeomsu/ros2_ws/src/rescue_vision_25/include/**",
+          "/home/choibeomsu/ros2_ws/src/realsense-ros/realsense2_camera/include/**",
+          "/home/choibeomsu/ros2_ws/src/seekthermal_ros/include/**",
+          "/usr/include/**"
+        ],
+        "name": "ROS2",
+        "intelliSenseMode": "gcc-x64",
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "gnu11",
+        "cppStandard": "c++14"
+      }
+    ],
+    "version": 4
+  }
