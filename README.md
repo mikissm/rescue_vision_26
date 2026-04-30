@@ -1,6 +1,6 @@
 # rescue_vision_26
 
-- 실행
+-- 실행
 
 ### 1. mapping
 ```bash
