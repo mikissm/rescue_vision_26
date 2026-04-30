@@ -2,7 +2,9 @@
 
 ## 실행
 
-### mapping
+mapping
 
 ```bash
 ros2 launch rescue_vision_26 mapping_launch.py
+```
+
