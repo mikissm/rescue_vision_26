@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>yolo_ros2_py</name>
+  <version>0.0.1</version>
+  <description>ROS2 Python node for YOLOv8 detection</description>
+  <maintainer email="mikissm06@gmail.com">ssm</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- ✅ ROS2 의존성 -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <!-- ✅ 커스텀 메시지 패키지 추가 -->
+  <depend>custom_msgs</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
